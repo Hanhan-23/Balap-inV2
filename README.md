@@ -247,7 +247,3 @@ This project is licensed under the **MIT License**.
 See the [LICENSE](LICENSE) file for more information.
 
 ---
-
-# 🌍 Vision
-
-To build a **smart, transparent, and AI-powered road infrastructure reporting ecosystem** that strengthens collaboration between the citizens of Batam City and government authorities in maintaining safe, reliable, and sustainable public infrastructure.
