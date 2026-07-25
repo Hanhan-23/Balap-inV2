@@ -12,7 +12,7 @@ The platform consists of a **Mobile Application** for citizens and a **Web Appli
 - 🌐 Web-based government management system
 - 📍 GPS-based location reporting
 - 📷 Image upload support
-- 🤖 AI-powered infrastructure damage detection
+- 🤖 AI-powered infrastructure damage recommendation
 - 🗺 Interactive map integration
 - 📊 Administrative dashboard
 - 📈 Report analytics
@@ -69,8 +69,8 @@ The **Mobile Application** is designed for **citizens of Batam City** to easily 
 
 - 👤 User registration and authentication
 - 📷 Capture and upload road damage photos
-- 📍 Automatic GPS location detection
-- 🤖 AI-powered infrastructure damage detection
+- 📍 Automatic GPS location detection clustering
+- 🤖 AI-powered infrastructure damage recommendations
 - 🗺 Interactive map integration
 - 📡 Submit reports in real time
 - 📋 View report history
@@ -87,7 +87,7 @@ BALAP-IN integrates Artificial Intelligence to improve the efficiency and accura
 ## AI Capabilities
 
 - Automatic road damage detection from uploaded images
-- Infrastructure damage classification
+- Infrastructure damage classification and clustering
 - Intelligent image analysis
 - AI-assisted report validation
 - Faster report processing
@@ -188,9 +188,10 @@ Please navigate to the corresponding project directory and follow the installati
 
 ### Artificial Intelligence
 
-- YOLO
 - Python
-- OpenCV
+- TOPSIS Recommendation
+- DBSCAN - Clusterign
+- NLP indobert
 
 ### Services
 
