@@ -1,0 +1,96 @@
+name: balapin
+description: "Batam Road Infrastructure Reporting Systems."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  flutter_svg: ^2.0.17
+  awesome_bottom_bar: ^1.2.4
+  draggable_home: ^1.0.5
+  phosphor_flutter: ^2.1.0
+  chips_choice: ^3.0.1
+  flutter_native_splash: ^2.4.5
+  tutorial_coach_mark: ^1.2.13
+  shared_preferences: ^2.5.3
+  http: ^1.3.0
+  google_maps_flutter: ^2.12.2
+  intl: ^0.19.0
+  get_time_ago: ^2.3.1
+  image_picker: ^1.1.2
+  provider: ^6.1.5
+  mime: ^2.0.0
+  lottie: ^3.3.1
+  uuid: ^4.5.1
+  firebase_messaging: ^15.2.7
+  firebase_core: ^3.14.0
+  flutter_local_notifications: ^19.3.0
+  geolocator: ^14.0.1
+  mockito: ^5.4.2
+  http_mock_adapter: ^0.6.0
+
+dev_dependencies:
+  integration_test:
+    sdk: flutter
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/logo.png
+
+    - assets/icons/area_urgensi/arrow-left.svg
+
+    - assets/icons/beranda/notification.svg
+    - assets/icons/beranda/search.svg
+    - assets/icons/beranda/fullmap.svg
+    - assets/icons/beranda/files.svg
+    - assets/icons/beranda/megaphone.svg
+    - assets/icons/beranda/filter.svg
+
+    - assets/icons/botnav/home.svg
+    - assets/icons/botnav/report.svg
+    - assets/icons/botnav/tutorial.svg
+    - assets/icons/botnav/urgent.svg
+
+    - assets/icons/buatlaporan/arrowleft.svg
+    - assets/icons/buatlaporan/folders.svg
+    - assets/icons/buatlaporan/pencil-simple.svg
+
+    - assets/icons/map-pin.svg
+
+    - assets/icons/dialog/alertanimation.json
+    - assets/icons/dialog/checkanimation.json
+    - assets/icons/dialog/failedanimation.json
+    - assets/icons/dialog/processanimation.json
+    - assets/icons/dialog/draftanimation.json
+    - assets/icons/dialog/deletedraftanim.json
+    - assets/icons/dialog/loaddrafanim.json
+    - assets/icons/dialog/loadinganimation.json
+
+  fonts:
+    - family: CustomIconsBotNav
+      fonts:
+        - asset: assets/icons/botnav/icomoon.ttf
+    - family: Instrument-Sans
+      fonts:
+        - asset: assets/fonts/instrumentsans/InstrumentSans-Bold.ttf
+        - asset: assets/fonts/instrumentsans/InstrumentSans-BoldItalic.ttf
+        - asset: assets/fonts/instrumentsans/InstrumentSans-Italic.ttf
+        - asset: assets/fonts/instrumentsans/InstrumentSans-Medium.ttf
+        - asset: assets/fonts/instrumentsans/InstrumentSans-MediumItalic.ttf
+        - asset: assets/fonts/instrumentsans/InstrumentSans-Regular.ttf
+        - asset: assets/fonts/instrumentsans/InstrumentSans-SemiBold.ttf
+        - asset: assets/fonts/instrumentsans/InstrumentSans-SemiBoldItalic.ttf

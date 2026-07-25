@@ -1,0 +1,33 @@
+[package]
+name = "backend_rust"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+actix-web = "4"
+serde = { version = "1.0", features = ["derive"] }
+futures = "0.3"
+mongodb = "3"
+dotenvy = "0.15"
+env_logger = "0.11.8"
+actix-cors = "0.7.1"
+serde_json = "1.0.140"
+aws-config = { version = "1.1.7", features = ["behavior-version-latest"] }
+aws-sdk-s3 = "1.84.0"
+tokio = { version = "1", features = ["full"] }
+uuid = { version = "1.16.0", features = ["v4"] }
+actix-multipart = "0.7.2"
+chrono = "0.4.40"
+regex = "1.11.1"
+shuttle-actix-web = "0.55.0"
+shuttle-runtime = { version = "0.55.0", features = ["setup-otel-exporter"] }
+reqwest = { version = "0.12.20", features = ["json"] }
+actix-web-prom = "0.10.0"
+mockall = "0.13.1"
+
+[dev-dependencies]
+actix-rt = "2"
+actix-http = "3"
+http = "0.2"
+multipart = "0.18"
+

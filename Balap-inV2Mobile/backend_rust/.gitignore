@@ -1,0 +1,23 @@
+# ====================
+# RUST / ACTIX-WEB
+# ====================
+/target/
+**/*.rs.bk
+
+# Rust toolchain files
+/.cargo/
+.cargo/config.toml
+.env
+
+# Rust logs or output
+*.log
+
+# ====================
+# GIT
+# ====================
+*.swp
+*.swo
+*~
+/target
+.shuttle*
+Secrets*.toml
